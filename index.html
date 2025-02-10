@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi cielo</title>
+    <link rel="icon" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Boton Modo Oscuro -->
+        <button id="toggleDarkMode" class="floating-button">
+            <i class="ri-sun-line"></i>
+        </button>
+
+        <!-- Sección Inicial -->
+        <section class="section active" id="inicio">
+            <h1>Hola mi amor hermoso precioso ❤️</h1>
+            <p>Sin duda alguna, todo cambió desde que tú, mi amor, llegaste a mi vida. </p> 
+            <p>Y por eso quiero hacerte una preguntota: </p>
+                Tú, Aldo René, dueño de mi corazón, ¿me harías el honor de compartir algo muy especial contigo?</p>
+            <button class="btn" onclick="showSection('declaracion')">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>Subsecuente</button>
+        </section>
+
+        <!-- Sección de Declaración -->
+        <section class="section" id="declaracion">
+            <h1>¿Quisieras tú, pasar juntos <br>
+                nuestro primer San Valentín?</h1>
+                <p>Porque yo chi quiero compartir cada momento contigo. <br> 
+                    ¿Aceptas ser mi compañero en esta aventura llamada amor?</p>
+            <div class="button-container">
+                <button class="btn" onclick="showSection('aceptacion')">¡Obvio chi mami! 💖</button>
+                <button class="btn" id="btnNo">Hmmm ño 😢</button>
+            </div>
+        </section>
+
+        <!-- Sección de Aceptación -->
+        <section class="section" id="aceptacion">
+            <h1>¿A poco si papi?</h1>
+            <div class="carta">
+                <h1>Este mensajito es para ti</h1>
+                <p>Mi amor, <br> <br>
+
+                    En el momento en que nuestras miradas se encontraron, no imaginé que mi vida cambiaría para siempre, 
+                    porque ya no puedo pensar en un futuro si no estás tú.
+                    Creo que nunca encontraré, es más, tampoco existen palabras suficientes para expresar todo lo que siento por ti. 
+                    Por primera vez, tengo en claro lo que quiero, tú me motivas, me alientas a soñar, a pensar en grande, a vencer 
+                    y afrontar mis miedos. Yo amo tanto, amo estar contigo, amo lo que tenemos, en verdad, amo la persona que soy cuando estoy contigo. 
+                    ¿Y sabes por qué amo tanto estar contigo? Porque a tu lado cada día es mágico, porque con solo verte se iluminan mis días,
+                    porque en el instante en sonríes, me olvido de todo lo que hay a nuestro alrededor, porque en tus brazos encuentro mi lugar 
+                    seguro, porque me siento y soy mucho más feliz cuando estoy contigo. Porque somos un equipo y juntos estamos construyendo 
+                    un futuro lleno de momentos inolvidables. Porque eres con quien yo quiero compartirlo todo. Porque a tu lado todo tiene sentido 
+                    y todo vale la pena. Porque tú eres parte de mi esencia. Porque tú eres mi hogar. Quiero estar hoy, mañana y siempre contigo, 
+                    a tu lado mi amor, siempre. Con todo mi corazón (que por cierto, es tuyo),<br><br>
+                    - Tu solecito </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
